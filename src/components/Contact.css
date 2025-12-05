@@ -1,4 +1,4 @@
-/* Contact Section Styles v2.0 - Mobile Fixed */
+/* Estilos de Sección Contacto v2.0 - Móvil Corregido */
 .contact-section {
     background-color: #fcf283;
     padding: 5rem 2rem;
@@ -21,7 +21,7 @@
     align-items: start;
 }
 
-/* Left Side: Social */
+/* Lado Izquierdo: Social */
 .contact-social-side {
     display: flex;
     flex-direction: column;
@@ -91,14 +91,14 @@
     line-height: 1.4;
 }
 
-/* Right Side: Form */
+/* Lado Derecho: Formulario */
 .contact-form-side {
     display: flex;
     flex-direction: column;
     text-align: left;
 }
 
-/* Form Card */
+/* Tarjeta del Formulario */
 .form-card {
     background: #61777D;
     border-radius: 24px;
@@ -168,7 +168,7 @@
     box-shadow: 0 6px 25px rgba(252, 100, 113, 0.4);
 }
 
-/* Responsive */
+/* Responsivo */
 @media (max-width: 968px) {
     .contact-section {
         padding: 3rem 1rem 5rem;

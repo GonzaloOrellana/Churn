@@ -38,7 +38,7 @@ body {
     overflow-x: hidden;
 }
 
-/* Bento Card Styles */
+/* Estilos de Tarjetas Bento */
 .bento-card {
     background: white;
     border-radius: 24px;
@@ -52,7 +52,7 @@ body {
     box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
 }
 
-/* Organic Shapes */
+/* Formas Orgánicas */
 .blob {
     position: absolute;
     border-radius: 50%;
@@ -70,7 +70,7 @@ body {
     background: var(--color-cyan);
 }
 
-/* Scrollbar */
+/* Barra de Desplazamiento */
 ::-webkit-scrollbar {
     width: 10px;
 }
@@ -88,7 +88,7 @@ body {
     background: var(--color-purple-brown);
 }
 
-/* Animations */
+/* Animaciones */
 @keyframes float {
 
     0%,
@@ -115,7 +115,7 @@ body {
     animation: float 6s ease-in-out infinite;
 }
 
-/* Button Styles */
+/* Estilos de Botones */
 .btn-primary {
     background: var(--color-pink);
     color: white;
@@ -150,14 +150,14 @@ body {
     color: white;
 }
 
-/* Container */
+/* Contenedor */
 .container {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 1rem;
 }
 
-/* Section Spacing */
+/* Espaciado de Secciones */
 section {
     padding: 4rem 0;
 }
@@ -172,7 +172,7 @@ section {
     }
 }
 
-/* iOS Safari viewport fix */
+/* Corrección de viewport para iOS Safari */
 @supports (-webkit-touch-callout: none) {
     body {
         min-height: -webkit-fill-available;
@@ -183,7 +183,7 @@ section {
     }
 }
 
-/* Ensure no content is cut off on mobile */
+/* Asegurar que el contenido no se corte en móvil */
 @media (max-width: 968px) {
 
     html,

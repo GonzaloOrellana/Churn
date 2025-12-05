@@ -20,7 +20,7 @@
     align-items: center;
 }
 
-/* Left Side: Image */
+/* Lado Izquierdo: Imagen */
 .wholesale-image-side {
     display: flex;
     justify-content: center;
@@ -44,7 +44,7 @@
     transform: scale(1.03);
 }
 
-/* Right Side: Text */
+/* Lado Derecho: Texto */
 .wholesale-text-side {
     display: flex;
     flex-direction: column;
@@ -67,7 +67,7 @@
     margin-bottom: 2rem;
 }
 
-/* Stats Grid */
+/* Grilla de Estadísticas */
 .wholesale-stats-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -125,7 +125,7 @@
     box-shadow: 0 6px 25px rgba(252, 100, 113, 0.4);
 }
 
-/* Responsive */
+/* Responsivo */
 @media (max-width: 968px) {
     .wholesale-section {
         padding: 3rem 1rem;

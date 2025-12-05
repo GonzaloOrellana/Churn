@@ -20,7 +20,7 @@
     align-items: center;
 }
 
-/* Left Side: Info */
+/* Lado Izquierdo: Info */
 .location-text-side {
     display: flex;
     flex-direction: column;
@@ -43,7 +43,7 @@
     margin-bottom: 2rem;
 }
 
-/* Info Cards */
+/* Tarjetas de Información */
 .location-info-cards {
     display: flex;
     flex-direction: column;
@@ -91,7 +91,7 @@
     line-height: 1.4;
 }
 
-/* Right Side: Map */
+/* Lado Derecho: Mapa */
 .location-map-side {
     display: flex;
     justify-content: center;
@@ -113,7 +113,7 @@
     border-radius: 24px;
 }
 
-/* Responsive */
+/* Responsivo */
 @media (max-width: 968px) {
     .location-section {
         padding: 3rem 1rem;
