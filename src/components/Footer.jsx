@@ -18,7 +18,7 @@ const Footer = () => {
                         <a href="#sobre-nosotros" className="footer-link">Sobre Nosotros</a>
                         <a href="#mayorista" className="footer-link">Mayoristas</a>
                         <a href="#ubicacion" className="footer-link">Ubicación</a>
-                        <a href="#contacto" className="footer-link">Contacto</a>
+                        <a href="#galeria" className="footer-link">Galeria</a>
                     </div>
 
                     <div className="footer-social-section">

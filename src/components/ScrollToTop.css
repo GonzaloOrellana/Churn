@@ -1,0 +1,82 @@
+/* Botón Scroll to Top */
+.scroll-to-top {
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    background: #fc6471;
+    color: #fcf283;
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    box-shadow: 0 4px 20px rgba(252, 100, 113, 0.3);
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    z-index: 1000;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(100px);
+}
+
+.scroll-to-top.visible {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+}
+
+.scroll-to-top:hover {
+    background: #ff6b9d;
+    transform: translateY(-4px) scale(1.05);
+    box-shadow: 0 8px 30px rgba(252, 100, 113, 0.4);
+}
+
+.scroll-to-top:active {
+    transform: translateY(-2px) scale(1);
+}
+
+/* Animación de pulso sutil */
+@keyframes pulse {
+
+    0%,
+    100% {
+        box-shadow: 0 4px 20px rgba(252, 100, 113, 0.3);
+    }
+
+    50% {
+        box-shadow: 0 4px 30px rgba(252, 100, 113, 0.5);
+    }
+}
+
+.scroll-to-top.visible {
+    animation: pulse 2s ease-in-out infinite;
+}
+
+.scroll-to-top:hover {
+    animation: none;
+}
+
+/* Responsivo para Tablets */
+@media (max-width: 968px) {
+    .scroll-to-top {
+        bottom: 1.5rem;
+        right: 1.5rem;
+        width: 50px;
+        height: 50px;
+        font-size: 1.3rem;
+    }
+}
+
+/* Responsivo para Móviles */
+@media (max-width: 640px) {
+    .scroll-to-top {
+        bottom: 1rem;
+        right: 1rem;
+        width: 48px;
+        height: 48px;
+        font-size: 1.2rem;
+    }
+}

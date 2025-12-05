@@ -6,12 +6,12 @@
     justify-content: center;
     position: relative;
     overflow: hidden;
-    padding: 2rem;
+    padding: 2rem 4rem;
 }
 
 .products-container {
     height: 90%;
-    width: 100%;
+    width: 95%;
     max-width: 1200px;
     margin: 0 auto;
     background: linear-gradient(135deg, #fc6471 0%, #74394e 100%);

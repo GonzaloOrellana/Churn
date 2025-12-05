@@ -4,9 +4,11 @@ import Hero from './components/Hero';
 import Products from './components/Products';
 import About from './components/About';
 import Wholesale from './components/Wholesale';
+import Testimonials from './components/Testimonials';
 import Location from './components/Location';
-import Contact from './components/Contact';
+import Gallery from './components/Gallery';
 import Footer from './components/Footer';
+import ScrollToTop from './components/ScrollToTop';
 
 function App() {
     return (
@@ -17,10 +19,12 @@ function App() {
                 <Products />
                 <About />
                 <Wholesale />
+                <Testimonials />
                 <Location />
-                <Contact />
+                <Gallery />
             </main>
             <Footer />
+            <ScrollToTop />
         </div>
     );
 }

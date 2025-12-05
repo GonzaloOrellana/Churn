@@ -39,7 +39,7 @@ const Header = () => {
                 <nav className="nav-right">
                     <button onClick={() => scrollToSection('mayorista')} className="nav-link">Venta Mayorista</button>
                     <button onClick={() => scrollToSection('ubicacion')} className="nav-link">Ubicación</button>
-                    <button onClick={() => scrollToSection('contacto')} className="nav-link">Contacto</button>
+                    <button onClick={() => scrollToSection('galeria')} className="nav-link">Galería</button>
                 </nav>
 
                 {/* Mobile Menu Button */}
@@ -58,7 +58,7 @@ const Header = () => {
                 <button onClick={() => scrollToSection('sobre-nosotros')} className="mobile-link">Sobre Nosotros</button>
                 <button onClick={() => scrollToSection('mayorista')} className="mobile-link"> Venta Mayorista</button>
                 <button onClick={() => scrollToSection('ubicacion')} className="mobile-link">Ubicación</button>
-                <button onClick={() => scrollToSection('contacto')} className="mobile-link">Contacto</button>
+                <button onClick={() => scrollToSection('galeria')} className="mobile-link">Galería</button>
             </div>
         </header>
     );
