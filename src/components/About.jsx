@@ -44,14 +44,14 @@ const About = () => {
                                 <img src="/imagenes/Sebastian.png" alt="Sebastian Vaca" className="founder-image" />
                                 <div className="founder-info">
                                     <h3 className="founder-name">Sebastian Vaca</h3>
-                                    <p className="founder-role">CEO and Founder</p>
+                                    <p className="founder-role">Maestro churrero y Fundador</p>
                                 </div>
                             </div>
                             <div className="founder-item">
                                 <img src="/imagenes/Evelyn.png" alt="Evelyn Baigorria" className="founder-image" />
                                 <div className="founder-info">
                                     <h3 className="founder-name">Evelyn Baigorria</h3>
-                                    <p className="founder-role">CEO and Founder</p>
+                                    <p className="founder-role">Pastelera y Fundadora</p>
                                 </div>
                             </div>
                         </div>
