@@ -14,7 +14,7 @@ const Location = () => {
                     viewport={{ once: true }}
                     className="location-content-split"
                 >
-                    {/* Left Side: Map */}
+                    {/* Lado Izquierdo: Mapa */}
                     <div className="location-map-side">
                         <div className="map-wrapper">
                             <iframe
@@ -30,7 +30,7 @@ const Location = () => {
                         </div>
                     </div>
 
-                    {/* Right Side: Info */}
+                    {/* Lado Derecho: Info */}
                     <div className="location-text-side">
                         <h2 className="location-main-title">Dónde Estamos</h2>
                         <p className="location-description">

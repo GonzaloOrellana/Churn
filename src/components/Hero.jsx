@@ -14,13 +14,13 @@ const Hero = () => {
 
     return (
         <section id="inicio" className="hero">
-            {/* Organic Background Blobs */}
+            {/* Blobs de Fondo Orgánicos */}
             <div className="blob blob-pink" style={{ top: '15%', right: '10%', width: '300px', height: '300px' }}></div>
             <div className="blob blob-cyan" style={{ bottom: '20%', left: '5%', width: '250px', height: '250px' }}></div>
 
             <div className="container">
                 <div className="hero-content-wrapper">
-                    {/* Left Content */}
+                    {/* Contenido Izquierdo */}
                     <motion.div
                         initial={{ opacity: 0, x: -50 }}
                         animate={{ opacity: 1, x: 0 }}
@@ -53,7 +53,7 @@ const Hero = () => {
                         </div>
                     </motion.div>
 
-                    {/* Right Image */}
+                    {/* Imagen Derecha */}
                     <motion.div
                         initial={{ opacity: 0, x: 50 }}
                         animate={{ opacity: 1, x: 0 }}

@@ -19,7 +19,7 @@
     margin-bottom: 2rem;
 }
 
-/* Brand Section */
+/* Sección de Marca */
 .footer-brand-section {
     display: flex;
     flex-direction: column;
@@ -41,7 +41,7 @@
     line-height: 1.4;
 }
 
-/* Links Section */
+/* Sección de Enlaces */
 .footer-links-section {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -62,7 +62,7 @@
     transform: translateX(3px);
 }
 
-/* Social Section */
+/* Sección Social */
 .footer-social-section {
     display: flex;
     justify-content: flex-end;
@@ -92,7 +92,7 @@
     font-size: 1.25rem;
 }
 
-/* Bottom Section */
+/* Sección Inferior */
 .footer-bottom {
     display: flex;
     justify-content: space-between;
@@ -125,7 +125,7 @@
     text-decoration: underline;
 }
 
-/* Responsive */
+/* Responsivo */
 @media (max-width: 968px) {
     .footer {
         padding: 2.5rem 1.5rem 1.5rem;

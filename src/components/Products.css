@@ -43,7 +43,7 @@
     padding: 2rem;
 }
 
-/* Left Side: Text */
+/* Lado Izquierdo: Texto */
 .product-text-side {
     display: flex;
     flex-direction: column;
@@ -90,7 +90,7 @@
     box-shadow: 0 6px 20px rgba(252, 100, 113, 0.4);
 }
 
-/* Right Side: Image */
+/* Lado Derecho: Imagen */
 .product-image-side {
     display: flex;
     justify-content: center;
@@ -111,7 +111,7 @@
     transform: scale(1.05) rotate(2deg);
 }
 
-/* Swiper Customization */
+/* Personalización de Swiper */
 .swiper-pagination-vertical.swiper-pagination-bullets {
     right: 20px !important;
 }
@@ -131,7 +131,7 @@
     background: #fcf283 !important;
 }
 
-/* Responsive */
+/* Responsivo */
 @media (max-width: 968px) {
     .products-section {
         padding: 1rem;
@@ -143,7 +143,7 @@
         height: auto;
         min-height: 80vh;
         width: 100%;
-        /* Full width like About image */
+        /* Ancho completo como la imagen de About */
         padding: 2rem 1.5rem;
         display: flex;
         flex-direction: column;
@@ -161,13 +161,13 @@
         padding: 0 0.5rem;
         align-items: center;
         order: 1;
-        /* Text first */
+        /* Texto primero */
         justify-content: center;
     }
 
     .product-image-side {
         order: 2;
-        /* Image second */
+        /* Imagen segundo */
         align-items: center;
         height: auto;
         margin-top: 1rem;
@@ -190,14 +190,14 @@
         max-width: 90%;
     }
 
-    /* Adjust pagination for horizontal mobile view */
+    /* Ajustar paginación para vista horizontal en móvil */
     .swiper-pagination-vertical.swiper-pagination-bullets {
         right: 10px !important;
         top: 50% !important;
         transform: translateY(-50%) !important;
     }
 
-    /* When it switches to horizontal in JS, Swiper changes the class */
+    /* Cuando cambia a horizontal en JS, Swiper cambia la clase */
     .swiper-pagination-horizontal.swiper-pagination-bullets {
         bottom: 10px !important;
         top: auto !important;
@@ -206,11 +206,11 @@
     }
 }
 
-/* Extra small devices */
+/* Dispositivos extra pequeños */
 @media (max-width: 480px) {
     .products-container {
         width: 100%;
-        /* Full width on small screens too */
+        /* Ancho completo en pantallas pequeñas también */
         padding: 1.5rem 1rem;
     }
 

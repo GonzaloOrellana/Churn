@@ -1,6 +1,6 @@
 .about-section {
     background-color: #fcf283;
-    /* Match global Yellow background */
+    /* Coincidir con el fondo Amarillo global */
     padding: 5rem 2rem;
     display: flex;
     align-items: center;
@@ -21,7 +21,7 @@
     align-items: center;
 }
 
-/* Right Side: Text (Now on right) */
+/* Lado Derecho: Texto (Ahora a la derecha) */
 .about-text-side {
     display: flex;
     flex-direction: column;
@@ -33,7 +33,7 @@
     font-family: var(--font-body);
     font-size: 2rem;
     color: #fc6471;
-    /* Pink title */
+    /* Título rosa */
     margin-bottom: 2rem;
     line-height: 1.1;
 }
@@ -45,7 +45,7 @@
     margin-bottom: 1.5rem;
 }
 
-/* Founders Styles */
+/* Estilos de Fundadores */
 .founders-container {
     display: flex;
     gap: 2rem;
@@ -76,7 +76,7 @@
     font-size: 1rem;
     font-weight: 700;
     color: #fc6471;
-    /* Pink matching title */
+    /* Rosa que coincide con el título */
     margin: 0;
     line-height: 1.2;
 }
@@ -84,12 +84,12 @@
 .founder-role {
     font-size: 0.7rem;
     color: #7D616B;
-    /* Purple brown */
+    /* Marrón púrpura */
     margin: 0;
     line-height: 1.2;
 }
 
-/* Left Side: Image (Now on left) */
+/* Lado Izquierdo: Imagen (Ahora a la izquierda) */
 .about-image-side {
     display: flex;
     justify-content: center;
@@ -114,7 +114,7 @@
     transform: scale(1.03);
 }
 
-/* Responsive */
+/* Responsivo */
 @media (max-width: 968px) {
     .about-section {
         padding: 3rem 1rem;
@@ -129,13 +129,13 @@
 
     .about-text-side {
         order: 1;
-        /* Text first on mobile */
+        /* Texto primero en móvil */
         align-items: center;
     }
 
     .about-image-side {
         order: 2;
-        /* Image at end on mobile */
+        /* Imagen al final en móvil */
     }
 
     .about-title {
@@ -149,7 +149,7 @@
 
     .founders-container {
         justify-content: center;
-        /* Center founders on mobile */
+        /* Centrar fundadores en móvil */
         flex-wrap: wrap;
     }
 }

@@ -88,7 +88,7 @@
     cursor: pointer;
 }
 
-/* Mobile Menu - Slide from Left */
+/* Menú Móvil - Desliza desde la Izquierda */
 .mobile-menu {
     position: fixed;
     top: 0;
@@ -128,7 +128,7 @@
     transform: rotate(90deg);
 }
 
-/* Mobile Links with Card/Bubble Style */
+/* Enlaces Móviles con Estilo de Tarjeta/Burbuja */
 .mobile-link {
     background: white;
     border: none;

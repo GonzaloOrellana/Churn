@@ -19,7 +19,7 @@ const Wholesale = () => {
                     viewport={{ once: true }}
                     className="wholesale-content-split"
                 >
-                    {/* Left Side: Text & Stats */}
+                    {/* Lado Izquierdo: Texto y Estadísticas */}
                     <div className="wholesale-text-side">
                         <h2 className="wholesale-title"> Venta Mayorista</h2>
                         <p className="wholesale-text">
@@ -27,7 +27,7 @@ const Wholesale = () => {
                             Ofrecemos productos premium con entrega garantizada y precios especiales.
                         </p>
 
-                        {/* Stats Grid */}
+                        {/* Grilla de Estadísticas */}
                         <div className="wholesale-stats-grid">
                             {stats.map((stat, index) => (
                                 <motion.div
@@ -54,7 +54,7 @@ const Wholesale = () => {
                         </a>
                     </div>
 
-                    {/* Right Side: Image */}
+                    {/* Lado Derecho: Imagen */}
                     <div className="wholesale-image-side">
                         <img
                             src="/imagenes/churro-tray.jpg"

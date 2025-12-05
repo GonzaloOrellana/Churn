@@ -100,7 +100,7 @@ const Products = () => {
                     {products.map((product) => (
                         <SwiperSlide key={product.id} className="product-slide-vertical">
                             <div className="product-content-split">
-                                {/* Left Side: Text */}
+                                {/* Lado Izquierdo: Texto */}
                                 <div className="product-text-side">
                                     <motion.div
                                         initial={{ opacity: 0, x: -50 }}
@@ -112,7 +112,7 @@ const Products = () => {
                                     </motion.div>
                                 </div>
 
-                                {/* Right Side: Image */}
+                                {/* Lado Derecho: Imagen */}
                                 <div className="product-image-side">
                                     <motion.img
                                         initial={{ opacity: 0, scale: 0.8 }}

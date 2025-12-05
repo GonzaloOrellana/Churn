@@ -13,7 +13,7 @@ const About = () => {
                     viewport={{ once: true }}
                     className="about-content-split"
                 >
-                    {/* Left Side: Image */}
+                    {/* Lado Izquierdo: Imagen */}
                     <div className="about-image-side">
                         <img
                             src="/imagenes/fotoAbout.jpeg"
@@ -26,7 +26,7 @@ const About = () => {
                         />
                     </div>
 
-                    {/* Right Side: Text */}
+                    {/* Lado Derecho: Texto */}
                     <div className="about-text-side">
                         <h2 className="about-title">Sobre Nosotros</h2>
                         <p className="about-text">
@@ -38,7 +38,7 @@ const About = () => {
                             Porque no buscamos que nos elijas por costumbre, sino por verdadero gusto.
                         </p>
 
-                        {/* Founders Section */}
+                        {/* Sección de Fundadores */}
                         <div className="founders-container">
                             <div className="founder-item">
                                 <img src="/imagenes/Sebastian.png" alt="Sebastian Vaca" className="founder-image" />
