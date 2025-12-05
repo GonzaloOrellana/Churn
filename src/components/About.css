@@ -134,7 +134,7 @@
     }
 
     .about-image-side {
-        padding: 1rem;
+        padding: 0;
         order: 2;
         /* Imagen al final en móvil */
     }
