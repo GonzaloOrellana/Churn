@@ -134,7 +134,7 @@
 /* Responsivo */
 @media (max-width: 968px) {
     .products-section {
-        padding: 1rem;
+        padding: 3rem;
         height: auto;
         min-height: 100vh;
     }

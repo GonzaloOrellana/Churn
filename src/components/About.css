@@ -134,6 +134,7 @@
     }
 
     .about-image-side {
+        padding: 1rem;
         order: 2;
         /* Imagen al final en móvil */
     }
@@ -148,7 +149,8 @@
     }
 
     .founders-container {
-        justify-content: center;
+        padding: 0;
+        justify-content: space-between;
         /* Centrar fundadores en móvil */
         flex-wrap: wrap;
     }

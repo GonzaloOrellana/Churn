@@ -118,7 +118,7 @@
 /* Responsivo para móviles pequeños */
 @media (max-width: 640px) {
     .gallery-section {
-        padding: 3rem 0;
+        padding: 3rem 1rem;
     }
 
     .gallery-container {
