@@ -171,3 +171,28 @@ section {
         padding: 1.5rem;
     }
 }
+
+/* iOS Safari viewport fix */
+@supports (-webkit-touch-callout: none) {
+    body {
+        min-height: -webkit-fill-available;
+    }
+
+    html {
+        height: -webkit-fill-available;
+    }
+}
+
+/* Ensure no content is cut off on mobile */
+@media (max-width: 968px) {
+
+    html,
+    body {
+        overflow-x: hidden;
+        overflow-y: auto !important;
+    }
+
+    #root {
+        overflow: visible !important;
+    }
+}
